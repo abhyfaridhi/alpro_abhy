@@ -1,0 +1,25 @@
+Algoritma:
+1.mulai
+2.input panjang
+3.input lebar
+4.Hitung luas = panjang × lebar
+5.Tampilkan luas
+6.selesai
+
+pseudocode:
+1.BEGIN
+2.INPUT panjang
+3.INPUT lebar
+4.luas = panjang * lebar
+5.PRINT luas
+6.END
+
+coding:
+# Program Menghitung Luas Persegi Panjang
+
+panjang = float(input("Masukkan panjang: "))
+lebar = float(input("Masukkan lebar: "))
+
+luas = panjang * lebar
+
+print("Luas persegi panjang adalah:", luas)
